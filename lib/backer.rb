@@ -10,7 +10,7 @@ class Backer
   end
 
   def back_project(project) #>> takes an instance of Project as an argument
-    @backed_projects << project#>>adding that instance to the @backed_projects array
+    backed_projects << project#>>adding that instance to the @backed_projects array
     project.backers << self#>>adds the backer to the project's backer's array
   end
 end
